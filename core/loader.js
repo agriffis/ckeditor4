@@ -32,11 +32,9 @@ if ( !CKEDITOR.loader ) {
 				'ckeditor_basic', 'log', 'dom', 'dtd', 'dom/document', 'dom/element',
 				'dom/iterator', 'editor', 'event', 'htmldataprocessor', 'htmlparser', 'htmlparser/element',
 				'htmlparser/fragment', 'htmlparser/filter', 'htmlparser/basicwriter', 'template', 'tools',
-				'ckeditor_version-check'
 			],
 			'ckeditor_base': [],
 			'ckeditor_basic': [ 'editor_basic', 'env', 'event' ],
-			'ckeditor_version-check': [ 'ckeditor_basic', 'config', 'tools' ],
 			'command': [],
 			'config': [ 'ckeditor_base' ],
 			'dom': [],
